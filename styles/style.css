@@ -20,6 +20,9 @@ text-transform: uppercase;
 padding: 16px 32px;
 border: none;
 }
+span{
+    color: #F00;
+}
 /* <==========banner start here============> */
 .banner{
     background-image: url('../images/banner-image.png');
@@ -125,4 +128,21 @@ margin-bottom: 142px;
 .welcome-photo{
     padding-top: 77px;
 }
-git 
+/* <===========join section start here===========> */
+.join {
+    background-image: linear-gradient(#ffe7e7, white);
+    border-radius: 15px;
+}
+.join-ditels{
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+text-align: center;
+padding-top: 100px;
+}
+.btn-extra{
+    margin: 48px 570px 110px 570px;
+}
