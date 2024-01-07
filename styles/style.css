@@ -146,3 +146,7 @@ padding-top: 100px;
 .btn-extra{
     margin: 48px 570px 110px 570px;
 }
+/* <============coming soon section start here============> */
+.coming-soon-contener{
+    display: flex;
+}
