@@ -1,0 +1,39 @@
+/* <=====all common style here======> */
+*{
+    margin: 0;
+    padding: 0;
+}
+.contener{
+    width: 82%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* <==========banner start here============> */
+.banner{
+    background-image: url('../images/banner-image.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.banner  > h4{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+padding-top: 177px ;
+padding-bottom: 16px;
+}
+.banner > h1{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+width: 48%;
+max-width: 632px;
+margin: auto;
+padding-bottom: 177px;
+}
