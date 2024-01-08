@@ -1,206 +1,253 @@
 /* <=====all common style here======> */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.contener{
-    width: 82%;
-    max-width: 1320px;
-    margin: 0 auto;
+.contener {
+  width: 82%;
+  max-width: 1320px;
+  margin: 0 auto;
 }
-.join-btn{
-    border-radius: 8px;
-background: #F00;
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-text-transform: uppercase;
-padding: 16px 32px;
-border: none;
+.join-btn {
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border: none;
 }
-span{
-    color: #F00;
+span {
+  color: #f00;
 }
 /* <==========banner start here============> */
-.banner{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/banner-image.png');
-    background-repeat: no-repeat;
-    border-radius: 15px;
-    width: 100%;
-    margin-top: 50px;
-    
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/banner-image.png");
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  width: 100%;
+  margin-top: 50px;
 }
-.banner  > h4{
-    color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 32px;
-font-weight: 400;
-padding-top: 177px ;
-padding-bottom: 16px;
+.banner > h4 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 177px;
+  padding-bottom: 16px;
 }
-.banner > h1{
-    color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-line-height: 95px;
-width: 48%;
-max-width: 632px;
-margin: auto;
-padding-bottom: 177px;
+.banner > h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  width: 48%;
+  max-width: 632px;
+  margin: auto;
+  padding-bottom: 177px;
 }
 /* <==============off section start here==========> */
-.off-contener{
-    width: 50%;
-    max-width: 803px;
-    margin: auto;
+.off-contener {
+  width: 50%;
+  max-width: 803px;
+  margin: auto;
 }
-.off-text > h1{
-    color: #F00;
-font-family: Inter;
-font-size: 88px;
-font-weight: 700;
-margin-top: 120px;
+.off-text > h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 120px;
 }
-.off-text > h6{
-    color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-margin-top: 48px;
+.off-text > h6 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 48px;
 }
-.off-text > h5{
-    color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-margin-top: 16px;
+.off-text > h5 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 16px;
 }
-.off-text{
-    width: 52%;
-    max-width: 450px;
-    margin: auto;
+.off-text {
+  width: 52%;
+  max-width: 450px;
+  margin: auto;
 }
-.off-img{
-    margin-top: 48px;
+.off-img {
+  margin-top: 48px;
 }
 /* <===============welcome section start here===========> */
-.welcome-banner{
-    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/vector.png');
-    border-radius: 15px;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin:120px auto;
-    display: flex;
-    justify-content: center;
-    padding-left:200px 0px;
+.welcome-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/vector.png");
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 120px auto;
+  display: flex;
+  justify-content: center;
+  padding-left: 200px 0px;
 }
-.welcome-text > h1{
-    color: #FFF;
-font-family: Merriweather;
-font-size: 64px;
-font-weight: 900;
-line-height: 88px;
-letter-spacing: 7.04px;
-width: 70%;
-margin:0 auto;
-margin-top: 100px;
+.welcome-text > h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
 }
-.welcome-text > p{
-    color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-width: 70%;
-margin:0 auto;
-margin-top: 24px;
+.welcome-text > p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 24px;
 }
-.btn{
-    margin-left: 147px;
-    margin-top: 48px;
-    margin-bottom: 137px;
+.btn {
+  margin-left: 147px;
+  margin-top: 48px;
+  margin-bottom: 137px;
 }
-.welcome-photo{
-    margin-right: 30px;
-    margin-top: 70px;
+.welcome-photo {
+  margin-right: 30px;
+  margin-top: 70px;
 }
 /* <===========join section start here===========> */
 .join {
-    background-image: linear-gradient(#ffe7e7, white);
-    border-radius: 15px;
+  background-image: linear-gradient(#ffe7e7, white);
+  border-radius: 15px;
 }
-.join-ditels{
-    color: #070211;
-font-family: Inter;
-font-size: 32px;
-font-weight: 600;
-line-height: 56px;
-text-transform: capitalize;
-text-align: center;
-padding-top: 100px;
+.join-ditels {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 100px;
 }
-.btn-extra{
-    margin: 48px 570px 110px 570px;
+.btn-extra {
+  margin: 48px 570px 110px 570px;
 }
 /* <============coming soon section start here============> */
-.coming-soon-contener{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 120px;
+.coming-soon-contener {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
 }
-.coming-soon-contener .coming-text >h6 {
-    color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+.coming-soon-contener .coming-text > h6 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
 }
-.coming-soon-contener .coming-text > h3{
-    color: #070211;
+.coming-soon-contener .coming-text > h3 {
+  color: #070211;
 
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
-margin-top: 5px;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 5px;
 }
 .coming-soon-contener .coming-text > p {
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-width: 440px;
-margin-top: 22px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 440px;
+  margin-top: 22px;
 }
-.coming-soon-contener .coming-wish > h3{
-    color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
+.coming-soon-contener .coming-wish > h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
 }
-.coming-soon-contener .coming-wish> p{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-width: 340px;
-margin-top: 5px;
+.coming-soon-contener .coming-wish > p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 340px;
+  margin-top: 5px;
 }
-.new-year-flag{
-    margin-top: 45px;
+.new-year-flag {
+  margin-top: 45px;
 }
-.coming-soon-contener .coming-pic{
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    border-radius: 50%;
-    border: 12px red solid;
+.coming-soon-contener .coming-pic {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 50%;
+  border: 12px red solid;
+}
+/* <==============holiday section start here==============> */
+.holiday-text {
+  width: 82%;
+  max-width: 1070px;
+  margin: auto;
+  margin-top: 120px;
+}
+.holiday-text > h6 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.holiday-text > h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+}
+.holiday-text > p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.holiday-bg {
+  background-image: url("../images/holiday-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+.holiday-content2 {
+  margin-top: 5px;
+  position: relative;
+}
+.discount {
+  position: absolute;
+  top: 80px;
+  left: -150px;
 }
