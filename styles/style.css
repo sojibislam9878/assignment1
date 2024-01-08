@@ -4,9 +4,11 @@
   padding: 0;
 }
 .contener {
-  width: 82%;
+  width: 100%;
   max-width: 1320px;
   margin: 0 auto;
+  padding:0 32px;
+
 }
 .join-btn {
   border-radius: 8px;
@@ -49,6 +51,7 @@ hr {
   border-radius: 15px;
   width: 100%;
   margin-top: 50px;
+  background-size: cover;
 }
 .banner > h4 {
   color: #fff;
@@ -101,9 +104,10 @@ hr {
   margin-top: 16px;
 }
 .off-text {
-  width: 52%;
+  width: 60%;
   max-width: 450px;
   margin: auto;
+  text-align: center;
 }
 .off-img {
   margin-top: 48px;
@@ -119,6 +123,7 @@ hr {
   display: flex;
   justify-content: center;
   padding-left: 200px 0px;
+  background-size: cover;
 }
 .welcome-text > h1 {
   color: #fff;
@@ -365,9 +370,11 @@ hr {
 .inputs > input {
   border-radius: 50px;
   background: #fff;
-  padding: 25px 30px;
+  padding: 25px 20px;
+  padding-right:50px ;
   border: none;
   width: 300px;
+  outline: none;
 }
 .inputs > button {
   border-radius: 0px 50px 50px 0px;
