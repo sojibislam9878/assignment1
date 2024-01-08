@@ -297,7 +297,8 @@ line-height: 32px;
     width: 424px;
 height: 450px;
 overflow: hidden;
-transition: 0.05ms;
+transition: 0.75ms;
+border-radius: 15px;
 }
 .pic-card > img{
     width: 100%;
@@ -308,6 +309,63 @@ transition: 0.05ms;
     transform: scale(1.5);
     cursor: pointer;
 }
-.pic-card:hover{
+/* <====================subscribe section start here===============> */
+.subscribe{
+    background-color: rgba(255, 0, 0, 0.05);
     border-radius: 15px;
+    margin-top: 120px;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+.subscribe-text{
+    width: 68%;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+.subscribe-text > h2 {
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin-top: 40px;
+}
+.subscribe-text > p {
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+margin-top: 22px;
+}
+.inputs{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+
+.inputs > input{
+    border-radius: 50px;
+background: #FFF;
+padding: 25px 30px;
+border: none;
+width: 300px;
+}
+.inputs > button{
+    border-radius: 0px 50px 50px 0px;
+background: #F00;
+padding: 25px 55px;
+margin-left: -50px;
+border: none;
+color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 12px;
+font-weight: 600;
+text-transform: capitalize;
 }
