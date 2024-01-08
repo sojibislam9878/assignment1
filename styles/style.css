@@ -20,8 +20,20 @@
   padding: 16px 32px;
   border: none;
 }
+.icon1 , .icon2{
+  margin-top: 7px;
+}
+.icon1{
+  margin-left: -15px;
+}
 span {
   color: #f00;
+}
+hr{
+  height: 2px;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  margin-top: 50px;
 }
 /* <==========banner start here============> */
 .banner {
@@ -368,4 +380,77 @@ font-family: Inter;
 font-size: 12px;
 font-weight: 600;
 text-transform: capitalize;
+}
+/* <=============footer section start here================> */
+#footer{
+  background-color: #070211;
+  margin-top: 120px;
+}
+.address{
+  display: flex;
+  justify-content: space-between;
+}
+.for-icons{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 16px;
+}
+.address > h3{
+  color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+width: 29%;
+max-width: 375px;
+margin-top: 120px;
+}
+.contact{
+  width: 18%;
+  max-width: 250px;
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+margin-top: 120px;
+}
+.social-link{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 48px;
+}
+.right-reserved{
+  display: flex;
+  justify-content: space-between;
+}
+.right-text > h5{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-top: 50px;
+}
+.right-btn > button{
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+border-radius: 8px;
+background: #F00;
+padding: 16px 32px;
+border: none;
+margin-top:50px;
+margin-bottom: 120px;
+transition: 0.5s;
+}
+.right-btn > button:hover{
+  cursor: pointer;
+  background-color: #FFF;
+  color: #F00;
 }
