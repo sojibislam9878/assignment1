@@ -110,6 +110,8 @@ hr {
   text-align: center;
 }
 .off-img {
+display: flex;
+justify-content: center;
   margin-top: 48px;
 }
 /* <===============welcome section start here===========> */
